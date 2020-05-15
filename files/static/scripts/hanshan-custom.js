@@ -9,7 +9,7 @@ function addToolsBtns() {
     tools_btns.setAttribute("class", "tools-btns");
     tools_btns.setAttribute("title", "开启/关闭背景");
     document.getElementsByTagName("body")[0].appendChild(tools_btns);
-    var innerHTMLStr = "<div onclick='toggleBg()'><i class='fa fa-cog fa-spin fa-5x' aria-hidden='true'</i> </div>";
+    var innerHTMLStr = "<div onclick='toggleBg()'><i class='fa fa-cog fa-spin fa-5x' aria-hidden='true'></i> </div>";
     document.getElementsByClassName("tools-btns")[0].innerHTML = innerHTMLStr;
 }
 // 切换背景
