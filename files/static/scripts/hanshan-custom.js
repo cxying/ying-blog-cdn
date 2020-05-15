@@ -16,7 +16,7 @@ function addToolsBtns() {
 function toggleBg() {
     var site_main = document.getElementById("main");
     if (site_main.className === "site-main") {
-        site_main.className = "site-main-no-bg";
+        site_main.className = "site-main no-bg";
     } else {
         site_main.className = "site-main";
     }
