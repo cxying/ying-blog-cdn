@@ -40,7 +40,7 @@ function(_ref) {
 	timeout = window.requestAnimationFrame(function() {
 		var yValue = calcValue(y, window.innerHeight)+5;
 		var xValue = calcValue(x, window.innerWidth);
-		console.log(xValue, yValue);
+		//console.log(xValue, yValue);
 		background.style.backgroundPosition = xValue * .45 + "px " + (-yValue * .45 - 50) + "px";
 	})
 },false);
